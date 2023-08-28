@@ -22,6 +22,7 @@ GitHub   : https://github.com/rwepa
 # conda install -c conda-forge folium
 # conda install -c conda-forge streamlit-folium
 # conda install -c conda-forge xlsxwriter
+# conda install -c conda-forge xlsxwriter
 
 import streamlit as st
 
@@ -48,6 +49,8 @@ st.markdown(
       3. conda install -c conda-forge folium
     
       4. conda install -c conda-forge streamlit-folium
+
+      5. conda install -c conda-forge xlsxwriter
     
     ##### 參考資源
     - Python - streamlit dashboard 教學 [https://youtu.be/FW-dl-flLvk](https://youtu.be/FW-dl-flLvk)
