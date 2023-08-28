@@ -17,6 +17,7 @@ import pandas as pd
 # 加入網頁文字內容
 st.write("#### 上傳GPX檔案 (Upload GPX File)")
 
+st.write("Downlaod gpx file:　[https://github.com/rwepa/teaching-streamlit-climb/blob/main/app_climb/data/climb-2023-08-16-101building.gpx]")
 # 上傳檔案
 uploaded_file = st.file_uploader(label="Upload a gpx file", type=["gpx"], accept_multiple_files=False)
 
