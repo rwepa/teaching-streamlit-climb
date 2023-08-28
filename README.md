@@ -1,5 +1,4 @@
-# teaching-streamlit-climb
- RWEPA | Visualization Climbing Routes with Python and Streamlit
+# RWEPA | Visualization Climbing Routes with Python and Streamlit
 
 # 平台實作程式碼
 
