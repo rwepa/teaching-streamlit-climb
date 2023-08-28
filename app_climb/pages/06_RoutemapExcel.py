@@ -35,8 +35,10 @@ else:
     with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
         
         # 寫入至Excel檔案
-        route_df.to_excel(writer, sheet_name=sheetname, index=False)                
-        writer.save()
+        route_df.to_excel(writer, sheet_name=sheetname, index=False)
+        
+        # 關閉 Pandas Excel writer
+        writer.close()
         
         # 下載按鈕
         st.download_button(
@@ -45,6 +47,4 @@ else:
             file_name=filename,
             mime="application/vnd.ms-excel"
         )
-        # 關閉 Pandas Excel writer
-        # writer.close()
 # end
