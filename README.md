@@ -1,15 +1,11 @@
 # teaching-streamlit-climb
-Python with the streamlit module for the Climbing Route System
+ RWEPA | Visualization Climbing Routes with Python and Streamlit
 
 # 平台實作程式碼
 
-
 + Code [https://github.com/rwepa/teaching-streamlit-climb]
 
-+ Streamlit展示平台 [整理中...]
-
 # 參考資源
-
 
 + Python - streamlit dashboard 教學 [https://youtu.be/FW-dl-flLvk]
 
