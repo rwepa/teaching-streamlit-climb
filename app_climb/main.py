@@ -22,7 +22,6 @@ GitHub   : https://github.com/rwepa
 # conda install -c conda-forge folium
 # conda install -c conda-forge streamlit-folium
 # conda install -c conda-forge xlsxwriter
-# conda install -c conda-forge xlsxwriter
 
 import streamlit as st
 
