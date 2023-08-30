@@ -23,7 +23,7 @@ uploaded_file = st.file_uploader(label="Upload a gpx file", type=["gpx"], accept
 
 if uploaded_file is not None:
 
-    # gpx = gpxpy.parse(open("data/climb-2023-08-16-101building", encoding="utf-8"))
+    # gpx = gpxpy.parse(open("data/climb-2023-08-16-101building.gpx", encoding="utf-8"))
     gpx = gpxpy.parse(uploaded_file)
            
     # 解析 GPX 資料
