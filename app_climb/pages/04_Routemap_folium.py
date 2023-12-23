@@ -18,7 +18,7 @@ st.write("#### 登山地形圖(Routemap)-folium")
 
 tiles_choice = st.radio(
     label="Map tiles options",
-    options=('Stamen Terrain','OpenStreetMap', 'CartoDBPositron', 'CartoDBDark_Matter', 'Stamen Watercolor'))
+    options=('OpenStreetMap', 'CartoDBPositron', 'CartoDBDark_Matter'))
 
 if 'df' not in st.session_state:
     st.write("Please upload the gpx file.")
